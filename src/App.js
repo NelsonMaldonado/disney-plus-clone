@@ -1,15 +1,16 @@
-import React from 'react';
-import Headers from './components/Headers';
+import React from "react"
+import Headers from "./components/Headers"
 // import { Counter } from './features/counter/Counter';
-import './App.css';
-import Home from './components/Home';
+import "./App.css"
+import Home from "./components/Home"
+
 function App() {
   return (
     <div>
-      <Headers/>
-      <Home/>
+      <Headers />
+      <Home />
     </div>
-  );
+  )
 }
 
-export default App;
+export default App
