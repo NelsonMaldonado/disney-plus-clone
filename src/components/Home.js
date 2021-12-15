@@ -1,5 +1,7 @@
 import React from 'react'
 import styled from 'styled-components'
+
+
 export default function Home() {
     return (
         <Container>
@@ -8,7 +10,8 @@ export default function Home() {
     )
 }
 
-const Container = styled.div `
-height: 40px;
-background-color: black;
+const Container = styled.main `
+min-height: calc(100vh - 70px);
+
+padding: 0 calc(3.5vw + 5px);
 ` 
