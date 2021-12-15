@@ -3,8 +3,12 @@ import styled from 'styled-components'
 function Headers() {
     return (
         <Nav>
-            <Logo/>
-           
+            <Logo src="/images/logo.svg"/>
+           <NavMenu>
+                <a><img src="/images/home-icon.svg"/>
+                <span>HOME</span>
+                </a>
+           </NavMenu>
         </Nav>
     )
 }
@@ -14,8 +18,15 @@ export default Headers
 const Nav = styled.nav`
 height: 70px;
 background-color: #090b13;
+display: flex;
+align-items: center;
+padding: 0 36px;
 `
 const Logo = styled.img `
 width: 80px;
-height: 
+
+`
+
+const NavMenu =  styled.div `
+
 `

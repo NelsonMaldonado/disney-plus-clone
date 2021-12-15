@@ -1,11 +1,11 @@
 import React from 'react';
 import Headers from './components/Headers';
-import { Counter } from './features/counter/Counter';
+// import { Counter } from './features/counter/Counter';
 import './App.css';
 import Home from './components/Home';
 function App() {
   return (
-    <div className="App">
+    <div>
       <Headers/>
       <Home/>
     </div>
