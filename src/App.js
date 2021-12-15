@@ -1,12 +1,13 @@
 import React from 'react';
-import logo from './logo.svg';
-import { Counter } from './features/counter/Counter';
+import Headers from './components/Headers';
+// import { Counter } from './features/counter/Counter';
 import './App.css';
-
+import Home from './components/Home';
 function App() {
   return (
-    <div className="App">
-      <h1>This is the beginnig of disney app</h1>
+    <div>
+      <Headers/>
+      <Home/>
     </div>
   );
 }
