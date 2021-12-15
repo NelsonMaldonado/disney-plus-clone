@@ -1,5 +1,5 @@
 import React from 'react'
-import styled from 'style-component'
+import styled from 'styled-components'
 function Headers() {
     return (
         <Container>
