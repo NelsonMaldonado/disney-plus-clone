@@ -7,28 +7,28 @@ const Movies = () => {
       <h4>Recomended for you</h4>
       <Content>
         <Wrap>
-          <img src="/images/viewers-pixar.png" />
+          <img src="/images/viewers-pixar.png" alt="pixar" />
         </Wrap>
         <Wrap>
-          <img src="/images/viewers-pixar.png" />
+          <img src="/images/viewers-pixar.png" alt="pixar" />
         </Wrap>
         <Wrap>
-          <img src="/images/viewers-pixar.png" />
+          <img src="/images/viewers-pixar.png" alt="pixar" />
         </Wrap>
         <Wrap>
-          <img src="/images/viewers-pixar.png" />
+          <img src="/images/viewers-pixar.png" alt="pixar" />
         </Wrap>
         <Wrap>
-          <img src="/images/viewers-pixar.png" />
+          <img src="/images/viewers-pixar.png" alt="pixar" />
         </Wrap>
         <Wrap>
-          <img src="/images/viewers-pixar.png" />
+          <img src="/images/viewers-pixar.png" alt="pixar" />
         </Wrap>
         <Wrap>
-          <img src="/images/viewers-pixar.png" />
+          <img src="/images/viewers-pixar.png" alt="pixar" />
         </Wrap>
         <Wrap>
-          <img src="/images/viewers-pixar.png" />
+          <img src="/images/viewers-pixar.png" alt="pixar" />
         </Wrap>
       </Content>
     </Container>
