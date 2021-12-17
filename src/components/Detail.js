@@ -20,9 +20,16 @@ function Detail() {
           <img src="/images/play-icon-black.png" alt="play" />
           <span>PLAY</span>
         </PlayButton>
-        <TrailerButton></TrailerButton>
-        <AddButton></AddButton>
-        <GroupWatchButton></GroupWatchButton>
+        <TrailerButton>
+          <img src="/images/play-icon-white.png" alt="trailer" />
+          <span>TRAILER</span>
+        </TrailerButton>
+        <AddButton>
+          <span>+</span>
+        </AddButton>
+        <GroupWatchButton>
+          <img src="/images/group-icon.png" alt="group_icon" />{" "}
+        </GroupWatchButton>
       </Controls>
     </Container>
   )
@@ -60,9 +67,51 @@ const ImageTitle = styled.div`
     object-fit: contain;
   }
 `
-const Controls = styled.div``
-const PlayButton = styled.button``
-const TrailerButton = styled.button``
-const AddButton = styled.button``
+const Controls = styled.div`
+  display: flex;
+  align-items: center;
+`
+const PlayButton = styled.button`
+  display: flex;
+  padding: 0px 24px;
+  margin-right: 23px;
+  align-items: center;
+  border-radius: 4px;
+  font-size: 15px;
+  height: 56px;
+  backgroud-color: rbg (249, 249, 249);
+  letter-spacing: 1.8px;
+  cursor: pointer;
+  border: none;
 
-const GroupWatchButton = styled.button``
+  &:hover {
+    background: rgb(198, 198, 198);
+  }
+`
+const TrailerButton = styled(PlayButton)`
+  background: rgba(0, 0, 0, 0.3);
+  border: 1px solid rgb(249, 249, 249);
+  color: rgb(249, 249, 249);
+  text-transform: uppercase;
+`
+const AddButton = styled.button`
+  margin-right: 16px;
+  width: 44px;
+  height: 44px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  border: 1.5px solid white;
+  background-color: rgba(0, 0, 0, 0.6);
+  cursor: pointer;
+
+  span {
+    font-size: 30px;
+    color: white;
+  }
+`
+
+const GroupWatchButton = styled(AddButton)`
+  background-color: black;
+`
