@@ -42,3 +42,5 @@ You don’t have to ever use `eject`. The curated feature set is suitable for sm
 You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
 To learn React, check out the [React documentation](https://reactjs.org/).
+
+\*\*\* This app doesn't have functionality because the firebase database was locked and I couldn't access the information. I stoped coding right before pulling the info from the db so my app wouldn't crash.
