@@ -4,7 +4,6 @@ import ImgSlider from "./ImgSlider"
 import Movies from "./Movies"
 import Viewers from "./Viewers"
 import db from "../firebase"
-import { app } from "../firebase"
 
 const Home = () => {
   useEffect(() => {
